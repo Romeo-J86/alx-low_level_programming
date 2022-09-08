@@ -10,6 +10,7 @@
  {
     char c;
     int i;
+    long b;
     long long int j;
     float f;
 
