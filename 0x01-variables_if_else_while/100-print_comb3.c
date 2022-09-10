@@ -3,16 +3,15 @@
 /**
  * main function
  * Description: prints all possible different combinations of two digits.
- * Return: Always 0 (Success)
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
-	int x = 0;
-    int y = 1;
+	int x, y;
 
-	for (; x <= 8; x++)
+	for (x = 0; x <= 8; x++)
 	{
-		for (; y <= 9; y++)
+		for (y = 1; y <= 9; y++)
 		{
 			if (y > x)
 			{
