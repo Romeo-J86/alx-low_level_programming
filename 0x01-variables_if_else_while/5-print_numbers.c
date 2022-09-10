@@ -13,9 +13,9 @@ int main(void)
 
 	while (digit <= '9')
 	{
-		printf("The digit is %i \n", digit);
+		putchar(digit);
 		digit++;
 	}
-
+    putchar("\n");
 	return (0);
 }
