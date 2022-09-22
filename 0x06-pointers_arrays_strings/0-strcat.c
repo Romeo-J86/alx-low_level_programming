@@ -10,8 +10,7 @@
 char *_strcat(char *dest, char *src)
 {
 int a = -1, dest_length;
-for (dest_length = 0; dest[dest_length] != '\0'; dest_length++)
-;
+for (dest_length = 0; dest[dest_length] != '\0'; dest_length++);
 
 do {
 	a++;
